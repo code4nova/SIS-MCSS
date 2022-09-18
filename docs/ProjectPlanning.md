@@ -69,7 +69,7 @@
 
 ```mermaid
 graph TD;
- Client-->REST_Service;
+ UI-->REST_Service;
  Admin-->REST_Service;
  REST_Service-->Database;
 ```
@@ -78,7 +78,7 @@ graph TD;
 
 ```mermaid
 graph TD;
- Client-->REST_Service;
+ UI-->REST_Service;
  Admin-->Database;
  REST_Service-->Database;
 ```
